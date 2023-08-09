@@ -28,8 +28,8 @@ IMPORTS
     Parameter-ID FROM Parameter
     PUSC-UINT32 FROM BasicTypes;
 
-maxTC-3-30-Parameter-ID-Count INTEGER ::= 1073741823
-maxTC-3-30-SuperComutatedParameterSetCount INTEGER ::= 536870911
+maxTC-3-30-Parameter-ID-Count INTEGER ::= 255
+maxTC-3-30-SuperComutatedParameterSetCount INTEGER ::= 127
 
 TC-3-30-AppendParametersToADiagnosticParameterReportStructure ::= TC-3-30-AppendParametersToADiagnosticParameterReportStructureGeneric {DiagnosticParameterReportStructure-ID, Parameter-ID} 
 

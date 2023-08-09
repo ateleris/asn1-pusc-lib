@@ -27,7 +27,7 @@ IMPORTS
     PUSC-UINT32 FROM BasicTypes
     PhysicalDevice-ID, ProtocolSpecificData FROM PhysicalDevice;
 
-maxTC-2-7-PhysicalDeviceCommandCount INTEGER ::= 65535
+maxTC-2-7-PhysicalDeviceCommandCount INTEGER ::= 63
 
 TC-2-7-DistributePhysicalDeviceCommands ::= SEQUENCE
 {

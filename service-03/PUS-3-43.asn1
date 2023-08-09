@@ -30,8 +30,8 @@ IMPORTS
     ParameterReportStructureType,
     ParameterReportStructure-ID FROM ParameterReportStructureType;
 
-maxTC-3-43-ParameterReportingDefinitionCount INTEGER ::= 536870911
-maxTC-3-43-ApidParameterReportingDefinitionCount INTEGER ::= 536870911
+maxTC-3-43-ParameterReportingDefinitionCount INTEGER ::= 127
+maxTC-3-43-ApidParameterReportingDefinitionCount INTEGER ::= 127
 
 TC-3-43-RemoveParameterReportDefinitionsFromAParameterFunctionalReportingDefinitionMultipleApid ::= TC-3-43-RemoveParameterReportDefinitionsFromAParameterFunctionalReportingDefinitionMultipleApidGeneric {ParameterFunctionalReportingDefinition-ID}
 

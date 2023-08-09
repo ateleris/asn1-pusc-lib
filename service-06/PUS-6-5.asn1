@@ -28,7 +28,7 @@ IMPORTS
     Memory-ID FROM Memory
     BytePointer FROM RawMemory;
 
-maxTC-6-5-DataAreaCount INTEGER ::= 65535
+maxTC-6-5-DataAreaCount INTEGER ::= 63
 
 TC-6-5-DumpRawMemoryData ::= TC-6-5-DumpRawMemoryDataGeneric {Memory-ID, TC-6-5-DataArea}
                              (WITH COMPONENTS {memory-ID PRESENT})

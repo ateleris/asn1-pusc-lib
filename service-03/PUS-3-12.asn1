@@ -31,8 +31,8 @@ IMPORTS
     CollectionInterval FROM CollectionInterval;
 
 
-maxTM-3-12-Parameter-ID-Count INTEGER ::= 1073741823
-maxTM-3-12-SuperComutatedParameterSetCount INTEGER ::= 536870911
+maxTM-3-12-Parameter-ID-Count INTEGER ::= 255
+maxTM-3-12-SuperComutatedParameterSetCount INTEGER ::= 127
 
 TM-3-12-DiagnosticParameterReportStructureReport
     ::= TM-3-12-DiagnosticParameterReportStructureReportGeneric

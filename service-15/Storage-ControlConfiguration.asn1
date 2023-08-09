@@ -24,14 +24,14 @@
 Storage-ControlConfiguration DEFINITIONS AUTOMATIC TAGS ::= BEGIN
 EXPORTS ALL;
 
-maxConfigurationSize Storage-ControlConfigurationSizeType ::= 4095
+maxConfigurationSize Storage-ControlConfigurationSizeType ::= 31
 Storage-ControlConfiguration {PacketStore-ID-Type, Configuration-Type} ::= SEQUENCE
 {
     packetStoreID PacketStore-ID-Type,
     configuration SEQUENCE(SIZE(0 .. maxConfigurationSize)) OF Configuration-Type
 }
 
-maxTailSize Storage-ControlConfigurationSizeType ::= 4095
+maxTailSize Storage-ControlConfigurationSizeType ::= 31
 Storage-ControlConfigurationItem {ApplicationProcess-ID-Type, Tail-Type} ::= SEQUENCE
 {
     applicationProcess-ID ApplicationProcess-ID-Type OPTIONAL,

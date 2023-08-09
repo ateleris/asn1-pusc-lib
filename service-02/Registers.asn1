@@ -39,7 +39,7 @@ RegisterAddress ::= ENUMERATED
 RegisterData ::= CHOICE
 {
     reg1 INTEGER (0 .. 255),
-    reg2 INTEGER (0 .. 65535)
+    reg2 INTEGER (0 .. 63)
 }
 
 END

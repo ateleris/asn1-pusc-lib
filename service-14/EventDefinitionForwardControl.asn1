@@ -28,8 +28,8 @@ IMPORTS
     ApplicationProcess-ID FROM ApplicationProcess
     PUSC-UINT32 FROM BasicTypes;
 
-maxEventDefinitionForwardControlCount INTEGER ::= 4095
-maxEventDefinition-ID-Count INTEGER::= 4095
+maxEventDefinitionForwardControlCount INTEGER ::= 31
+maxEventDefinition-ID-Count INTEGER::= 31
 
 EventDefinitionForwardControl ::= SEQUENCE
 {

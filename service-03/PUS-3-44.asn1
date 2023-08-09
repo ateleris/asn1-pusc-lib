@@ -33,8 +33,8 @@ IMPORTS
     ParameterFunctionalReportingDefinition-ID FROM ParameterFunctionalReportingDefinition
     ParameterReportingEntries FROM ParameterReportingEntries;
 
-macTC-44-ParameterReportingEntryCount INTEGER ::= 536870911
-maxTC-44-ApidParameterReportingEntryCount INTEGER ::= 536870911
+macTC-44-ParameterReportingEntryCount INTEGER ::= 127
+maxTC-44-ApidParameterReportingEntryCount INTEGER ::= 127
 
 TC-3-44-ModifyThePeriodicGenerationPropertiesOfParameterReportDefinitionsOfAParameterFunctionalReportingDefinitionMultipleApid ::= TC-3-44-ModifyThePeriodicGenerationPropertiesOfParameterReportDefinitionsOfAParameterFunctionalReportingDefinitionMultipleApidGeneric {ParameterFunctionalReportingDefinition-ID}
 

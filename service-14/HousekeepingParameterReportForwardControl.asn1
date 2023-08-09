@@ -29,8 +29,8 @@ IMPORTS
     SubsamplingRate FROM SubsamplingRate
     HousekeepingParameterReportStructure-ID FROM HousekeepingParameterReportStructure;
 
-maxHousekeepingParameterReportForwardControlCount INTEGER ::= 4095
-maxHousekeepingStructure-ID-Count INTEGER ::= 4095
+maxHousekeepingParameterReportForwardControlCount INTEGER ::= 31
+maxHousekeepingStructure-ID-Count INTEGER ::= 31
 
 HousekeepingParameterReportForwardControlSubsampling ::= HousekeepingParameterReportForwardControlGeneric
 {SingleHousekeepingParameterReportForwardControlSubsampling}

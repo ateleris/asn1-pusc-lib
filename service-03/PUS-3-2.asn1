@@ -29,8 +29,8 @@ IMPORTS
     PUSC-UINT32 FROM BasicTypes
     CollectionInterval FROM CollectionInterval;
 
-maxTC-3-2-Parameter-ID-Count INTEGER ::= 1073741823
-maxTC-3-2-SuperComutatedParameterSetCount INTEGER ::= 536870911
+maxTC-3-2-Parameter-ID-Count INTEGER ::= 255
+maxTC-3-2-SuperComutatedParameterSetCount INTEGER ::= 127
 
 TC-3-2-CreateADiagnosticParameterReportStructure ::= TC-3-2-CreateADiagnosticParameterReportStructureGeneric {DiagnosticParameterReportStructure-ID, CollectionInterval, Parameter-ID}
 

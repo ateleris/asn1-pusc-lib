@@ -29,9 +29,9 @@ IMPORTS
     PUSC-UINT32 FROM BasicTypes;
 
 
-maxApplicationProcessForwardControlCount INTEGER ::= 4095
-maxServiceTypeForwardControl INTEGER ::= 4095
-maxMessageSubtypeForwardControl INTEGER ::= 4095
+maxApplicationProcessForwardControlCount INTEGER ::= 31
+maxServiceTypeForwardControl INTEGER ::= 31
+maxMessageSubtypeForwardControl INTEGER ::= 31
 
 ApplicationProcessForwardControl ::= SEQUENCE
 {

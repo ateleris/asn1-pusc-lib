@@ -30,8 +30,8 @@ IMPORTS
     DiagnosticParameterReportStructure-ID FROM DiagnosticParameterReportStructure;
 
 
-maxDiagnosticParameterReportForwardControlCount INTEGER ::= 4095
-maxDiagnosticStructure-ID-Count INTEGER ::= 4095
+maxDiagnosticParameterReportForwardControlCount INTEGER ::= 31
+maxDiagnosticStructure-ID-Count INTEGER ::= 31
 
 DiagnosticParameterReportForwardControlSubsampling ::= DiagnosticParameterReportForwardControlGeneric
 {SingleDiagnosticParameterReportForwardControlSubsampling}

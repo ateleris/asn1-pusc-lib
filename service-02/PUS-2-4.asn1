@@ -26,8 +26,8 @@ EXPORTS ALL;
 IMPORTS
     PUSC-UINT32 FROM BasicTypes;
 
-maxTC-2-4-CpduCommandsCount INTEGER ::= 1073741823
-maxTC-2-4-CpduCount INTEGER ::= 536870911
+maxTC-2-4-CpduCommandsCount INTEGER ::= 255
+maxTC-2-4-CpduCount INTEGER ::= 127
 
 TC-2-4-DistributeCpduCommands ::= SEQUENCE
 {
