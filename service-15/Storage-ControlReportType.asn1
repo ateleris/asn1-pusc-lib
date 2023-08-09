@@ -38,7 +38,7 @@ Storage-ControlReportTypeStorage-ControlConfiguration ::=
 
 Storage-ControlReportTypeMessageSubtypes ::= Storage-ControlReportTypeMessageSubtypesGeneric {MessageSubtype-ID}
 
-maxMessageSubtypeSize INTEGER ::= 4096
+maxMessageSubtypeSize INTEGER ::= 32
 Storage-ControlReportTypeMessageSubtypesGeneric {MessageSubtype-Type} ::= SEQUENCE
 {
     messageSubtype SEQUENCE(SIZE(0 .. maxMessageSubtypeSize)) OF MessageSubtype-Type

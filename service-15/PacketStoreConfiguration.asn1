@@ -30,7 +30,7 @@ IMPORTS
 
 PacketStoreConfiguration ::= PacketStoreConfigurationGeneric {PacketStoreConfigurationItem}
 
-maxPacketStoreConfigurationItemsSize INTEGER ::= 4096
+maxPacketStoreConfigurationItemsSize INTEGER ::= 32
 PacketStoreConfigurationGeneric {PacketStoreConfigurationItem-Type} ::= SEQUENCE
 {
     configurationItems SEQUENCE(SIZE(1 .. maxPacketStoreConfigurationItemsSize)) OF PacketStoreConfigurationItem-Type

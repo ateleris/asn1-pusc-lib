@@ -30,7 +30,7 @@ IMPORTS
 
 TC-15-15-ResumeTheOpenRetrievalOfPacketStores ::= TC-15-15-ResumeTheOpenRetrievalOfPacketStoresGeneric {TC-15-15-PacketStoresToResume}
 
-maxPacketStoresToResumeSize INTEGER ::= 4096
+maxPacketStoresToResumeSize INTEGER ::= 32
 TC-15-15-ResumeTheOpenRetrievalOfPacketStoresGeneric {PacketStoresToResume-Type} ::= SEQUENCE
 {
     packetStoresToResume SEQUENCE(SIZE(1 .. maxPacketStoresToResumeSize)) OF PacketStoresToResume-Type

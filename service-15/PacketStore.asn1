@@ -31,7 +31,7 @@ PacketStoreSequence ::= SEQUENCE
     packetStores SEQUENCE(SIZE(1 .. max-PacketStore-IDSize)) OF PacketStore-ID
 }
 
-max-PacketStore-IDSize INTEGER ::= 4096
+max-PacketStore-IDSize INTEGER ::= 32
 PacketStore-ID ::= IA5String (SIZE(max-PacketStore-IDSize))
 
 END

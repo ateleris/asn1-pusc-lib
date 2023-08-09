@@ -29,7 +29,7 @@ IMPORTS
 
 TM-15-13-PacketStoreContentSummaryReport ::= TM-15-13-PacketStoreContentSummaryReportGeneric {PacketStore-ID, TM-15-13-ReportContent}
 
-maxReportsContentsSize INTEGER ::= 4096
+maxReportsContentsSize INTEGER ::= 32
 TM-15-13-PacketStoreContentSummaryReportGeneric {PacketStore-ID-Type, ReportContent-Type} ::= SEQUENCE
 {
     packetStore-ID PacketStore-ID-Type,

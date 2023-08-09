@@ -29,7 +29,7 @@ IMPORTS
 
 TC-15-25-ResizePacketStores ::= TC-15-25-ResizePacketStoresGeneric {TC-15-25-PacketToResize}
 
-maxPacketsToResizeSize INTEGER ::= 4096
+maxPacketsToResizeSize INTEGER ::= 32
 TC-15-25-ResizePacketStoresGeneric {PacketToResize-Type} ::= SEQUENCE
 {
     packetsToResize SEQUENCE(SIZE(1 .. maxPacketsToResizeSize)) OF PacketToResize-Type

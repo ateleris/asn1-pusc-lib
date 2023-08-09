@@ -30,7 +30,7 @@ IMPORTS
 
 TC-15-9-StartTheBy-Time-RangeRetrievalOfPacketStores ::= TC-15-9-StartTheBy-Time-RangeRetrievalOfPacketStoresGeneric {TC-15-9-PacketRetrievalTimeRangeSetting}
 
-maxPacketRetrievalTimeRangeSettingsSize INTEGER ::= 4096
+maxPacketRetrievalTimeRangeSettingsSize INTEGER ::= 32
 TC-15-9-StartTheBy-Time-RangeRetrievalOfPacketStoresGeneric {PacketRetrievalTimeRangeSetting-Type} ::= SEQUENCE
 {
     packetRetrievalTimeRangeSettings SEQUENCE(SIZE(1 .. maxPacketRetrievalTimeRangeSettingsSize)) OF PacketRetrievalTimeRangeSetting-Type
